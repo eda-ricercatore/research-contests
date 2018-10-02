@@ -19,7 +19,7 @@ Given the bottom/lower layers of the layout for an integrated circuit (for
 		manufacturing process.
 
 Suggested attack methods that contestants can try include:
-+ brute-force attack
++ Brute-force attack
 + ATPG/SAT attack, automatic test pattern generation and
 	boolean/propositional satisfiability.
 + SMT attack, using solvers for satisfiability modulo theories (SMT).

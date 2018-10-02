@@ -26,10 +26,28 @@ Suggested attack methods that contestants can try include:
 + Smart guess attack
 + Optimization-based attack
 
+We use a weighted linear combination of the rankings of contestants to
+	determine the winning team.
 
 
-
-
+Metrics for determining the ranking of contestants, and their weightage:
++ Security level (number of bits, rank in descending order), 20%
++ Evaluation time per key (in seconds, rank in ascending order), 30%
++ Operation style (tier 1 solutions are ranked ahead of lower tier solutions),
+	10%:
+	- Hours per day (tier 1)
+	- Non-stop (tier 2)
++ Unblocking time (tier 1 solutions are ranked ahead of lower tier solutions),
+	10%:
+	- Can't find the correct key (tier 1)
+	- Days (tier 3)
+	- Weeks (tier 2)
++ Percentage of area overhead (area with overhead / original area, rank in
+	ascending order), 10%.
++ Percentage of power overhead (power usage with overhead / original power
+	usage, rank in ascending order), 10%.
++ Percentage of energy overhead (energy usage with overhead / original energy
+		usage, rank in ascending order), 10%.
 
 
 

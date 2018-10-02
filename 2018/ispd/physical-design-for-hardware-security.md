@@ -1,6 +1,6 @@
 #	Physical Design for Hardware Security
 
-##	Problem 1
+
 
 Some fabless IC/VLSI design companies use split manufacturing as a defense
 	against untrusted foundries in the semiconductor manufacturing industry.
@@ -12,11 +12,42 @@ Attack scenarios:
 + Chip recycling
 + Overproduction
 
+
+##	Problem 1
+
 Given the bottom/lower layers of the layout for an integrated circuit (for
 	the front-end-of-line, FEOL, semiconductor manufacturing process), or
 	VLSI system, design attacks that can determine the top layers of the layout.
 	These top-layers are manufactured by back-end-of-line (BEOL) semiconductor
 		manufacturing process.
+
+We rank contestants based on the weighted combination of the following: time
+	taken in order to guess the top layers for the BEOL process (30%, rank in
+	ascending order), and percentage of correctly guessed connections in the
+	top layers (70%, rank in descending order).
+
+
+###	Problem 1a
+
+Given the bottom/lower layers of the layout for an integrated circuit (for
+	the front-end-of-line, FEOL, semiconductor manufacturing process), or
+	VLSI system, extract the logic-level netlist of the FEOL layers of the
+	layout and design attacks that can determine the connections of the
+	logic-level netlist (i.e., implicitly determine the BEOL layers).
+
+We rank contestants based on the weighted combination of the following: time
+	taken in order to guess the connections of the logic-level netlist (30%,
+	rank in ascending order), and percentage of correctly guessed connections
+	in the logic-level netlist - in comparison to the logic-level netlist of
+	the original IC design (70%, rank in descending order).
+
+
+
+##	Problem 2
+
+IC design teams use digital locking to mitigate against reverse engineering and
+	overproduction of ICs.
+	Develop attack methods that can unlock ICs with such digital locks.
 
 Suggested attack methods that contestants can try include:
 + Brute-force attack
@@ -28,7 +59,6 @@ Suggested attack methods that contestants can try include:
 
 We use a weighted linear combination of the rankings of contestants to
 	determine the winning team.
-
 
 Metrics for determining the ranking of contestants, and their weightage:
 + Security level (number of bits, rank in descending order), 20%

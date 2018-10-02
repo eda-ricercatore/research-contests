@@ -52,10 +52,11 @@ Develop a physical design tool that performs IC camouflaging to defend against
 	untrusted end-users who may perform reverse engineering to obtain the
 	semiconductor IP (of the IC design).
 
-A reverse engineering script/flow will be used to guess the original design.
+A reverse engineering flow will be used to guess the original design.
 	Contestants are ranked based on the proportion of the IC being reverse
-		engineered.
-	Contestants are ranked in descending order.
+		engineered;
+		we would use an equivalence checking tool to do this.
+	The order of ranking is descending.
 
 
 

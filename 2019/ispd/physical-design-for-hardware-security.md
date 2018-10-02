@@ -1,18 +1,10 @@
-#	research-contests
-A repository for research contests spanning topics from hardware security and embedded/VLSI machine learning to electronic design automation, bio design automation, and formal verification.
 
 
-#	Organization of the Repository
 
-+ 2019
-	- ispd
-		* physical-design-for-hardware-security.md
-+ notes
-	- Software licenses
-		+ MIT License
-	 	+GNU General Public License (GNU GPL)
-	- Guidelines for collaborating on open source software and/or hardware projects.
-		+ Documentation about guidelines that I am following for my research, and for my research collaborators to know about.
+
+
+
+
 
 
 
@@ -21,6 +13,7 @@ A repository for research contests spanning topics from hardware security and em
 Citations/References that use the LaTeX/BibTeX notation are taken from my BibTeX database (set of BibTeX entries).
 
 Additional references not found in the reference list shall be indicated below (TO BE UPDATED).
+
 
 
 #	Author Information

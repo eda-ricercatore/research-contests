@@ -11,6 +11,9 @@ Attack scenarios:
 + Reverse engineering
 + Chip recycling
 + Overproduction
++ IC piracy
++ counterfeiting
++ hardware trojans
 
 
 ##	Problem 1
@@ -45,7 +48,7 @@ We rank contestants based on the weighted combination of the following: time
 
 ##	Problem 2
 
-IC design teams use digital locking to mitigate against reverse engineering and
+IC design teams use logic locking to mitigate against reverse engineering and
 	overproduction of ICs. In addition, lock-and-key mechanisms can protect
 	against scan-based side-channel attacks carried out during manufacturing
 	test and in-field test.
@@ -86,7 +89,14 @@ Metrics for determining the ranking of contestants, and their weightage:
 
 ##	Problem 3
 
+Develop a physical design tool that performs IC camouflaging to defend against
+	untrusted end-users who may perform reverse engineering to obtain the
+	semiconductor IP (of the IC design).
 
+A reverse engineering script/flow will be used to guess the original design.
+	Contestants are ranked based on the proportion of the IC being reverse
+		engineered.
+	Contestants are ranked in descending order.
 
 
 

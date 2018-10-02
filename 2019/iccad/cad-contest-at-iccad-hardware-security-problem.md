@@ -1,4 +1,4 @@
-#	Hardware Security for "CAD Contest at ICCAD"
+#	Hardware Security Problem for "CAD Contest at ICCAD"
 
 Some fabless IC/VLSI design companies use split manufacturing as a defense
 	against untrusted foundries in the semiconductor manufacturing industry.

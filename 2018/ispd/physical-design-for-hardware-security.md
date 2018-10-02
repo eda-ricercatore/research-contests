@@ -18,6 +18,21 @@ Given the bottom/lower layers of the layout for an integrated circuit (for
 	These top-layers are manufactured by back-end-of-line (BEOL) semiconductor
 		manufacturing process.
 
+Suggested attack methods that contestants can try include:
++ brute-force attack
++ ATPG/SAT attack, automatic test pattern generation and
+	boolean/propositional satisfiability.
++ SMT attack, using solvers for satisfiability modulo theories (SMT).
++ Smart guess attack
++ Optimization-based attack
+
+
+
+
+
+
+
+
 
 ##	Problem 2
 

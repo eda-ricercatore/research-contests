@@ -6,9 +6,14 @@ A repository for research contests spanning topics from hardware security and em
 
 + 2019
 	- ispd
-		* physical-design-for-hardware-security.md
-			+ Problem descriptions for the hardware security contest that can
-				be concurrently held with the ISPD 2019 contest.
+		* Problem descriptions for the hardware security contest that can be
+			concurrently held with the ISPD 2019 contest.
+		* Answers [Call for Co-Organization of Hardware Security Problems for Research Contests](https://github.com/eda-ricercatore/eda-ricercatore.github.io/blob/master/ricerca/call-for-co-organization-of-hardware-security-problems-benchmarks.md)
+	- iccad
+		* Problem description for a hardware security problem that can be
+			included with the 2019 CAD Contest @ ICCAD.
+		* Answers [Call for Co-Organization of Hardware Security Problems for Research Contests](https://github.com/eda-ricercatore/eda-ricercatore.github.io/blob/master/ricerca/call-for-co-organization-of-hardware-security-problems-benchmarks.md)
+
 + notes
 	- Software licenses
 		+ MIT License

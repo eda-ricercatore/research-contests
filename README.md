@@ -7,6 +7,8 @@ A repository for research contests spanning topics from hardware security and em
 + 2019
 	- ispd
 		* physical-design-for-hardware-security.md
+			+ Problem descriptions for the hardware security contest that can
+				be concurrently held with the ISPD 2019 contest.
 + notes
 	- Software licenses
 		+ MIT License

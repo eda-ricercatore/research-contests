@@ -46,7 +46,9 @@ We rank contestants based on the weighted combination of the following: time
 ##	Problem 2
 
 IC design teams use digital locking to mitigate against reverse engineering and
-	overproduction of ICs.
+	overproduction of ICs. In addition, lock-and-key mechanisms can protect
+	against scan-based side-channel attacks carried out during manufacturing
+	test and in-field test.
 	Develop attack methods that can unlock ICs with such digital locks.
 
 Suggested attack methods that contestants can try include:

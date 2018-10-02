@@ -12,6 +12,12 @@ Attack scenarios:
 + Chip recycling
 + Overproduction
 
+Given the bottom/lower layers of the layout for an integrated circuit (for
+	the front-end-of-line, FEOL, semiconductor manufacturing process), or
+	VLSI system, design attacks that can determine the top layers of the layout.
+	These top-layers are manufactured by back-end-of-line (BEOL) semiconductor
+		manufacturing process.
+
 
 ##	Problem 2
 

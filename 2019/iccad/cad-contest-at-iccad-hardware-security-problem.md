@@ -1,6 +1,4 @@
-#	Physical Design for Hardware Security
-
-
+#	Hardware Security for "CAD Contest at ICCAD"
 
 Some fabless IC/VLSI design companies use split manufacturing as a defense
 	against untrusted foundries in the semiconductor manufacturing industry.
@@ -16,48 +14,56 @@ Attack scenarios:
 + hardware trojans
 
 
-##	Problem 1
+##	Suggested topics
 
-Given the bottom/lower layers of the layout for an integrated circuit (for
-	the front-end-of-line, FEOL, semiconductor manufacturing process), or
-	VLSI system, design attacks that can determine the top layers of the layout.
-	These top-layers are manufactured by back-end-of-line (BEOL) semiconductor
-		manufacturing process.
-
-We rank contestants based on the weighted combination of the following: time
-	taken in order to guess the top layers for the BEOL process (30%, rank in
-	ascending order), and percentage of correctly guessed connections in the
-	top layers (70%, rank in descending order).
++ Logic encryption
++ Logic masking
 
 
-###	Problem 1a
+##	Logic Locking Problem
 
-Given the bottom/lower layers of the layout for an integrated circuit (for
-	the front-end-of-line, FEOL, semiconductor manufacturing process), or
-	VLSI system, extract the logic-level netlist of the FEOL layers of the
-	layout and design attacks that can determine the connections of the
-	logic-level netlist (i.e., implicitly determine the BEOL layers).
+IC design teams use logic locking to mitigate against reverse engineering and
+	overproduction of ICs. In addition, lock-and-key mechanisms can protect
+	against scan-based side-channel attacks carried out during manufacturing
+	test and in-field test.
+	Develop attack methods that can unlock ICs with such digital locks.
 
-We rank contestants based on the weighted combination of the following: time
-	taken in order to guess the connections of the logic-level netlist (30%,
-	rank in ascending order), and percentage of correctly guessed connections
-	in the logic-level netlist - in comparison to the logic-level netlist of
-	the original IC design (70%, rank in descending order).
+Threat Model: locked netlist.
 
+Attack method: propagate sensitive individual key bits to primary outputs.
 
-
-##	Problem 2
-
-Develop a physical design tool that performs IC camouflaging to defend against
-	untrusted end-users who may perform reverse engineering to obtain the
-	semiconductor IP (of the IC design).
-
-A reverse engineering script/flow will be used to guess the original design.
-	Contestants are ranked based on the proportion of the IC being reverse
-		engineered.
-	Contestants are ranked in descending order.
+Sensitization attacks: SAT attack, SMT attack, signal probability skew attack.
 
 
+Suggested attack methods that contestants can try include:
++ Brute-force attack
++ ATPG/SAT attack, automatic test pattern generation and
+	boolean/propositional satisfiability.
++ SMT attack, using solvers for satisfiability modulo theories (SMT).
++ Smart guess attack
++ Optimization-based attack
+
+We use a weighted linear combination of the rankings of contestants to
+	determine the winning team.
+
+Metrics for determining the ranking of contestants, and their weightage:
++ Security level (number of bits, rank in descending order), 20%
++ Evaluation time per key (in seconds, rank in ascending order), 30%
++ Operation style (tier 1 solutions are ranked ahead of lower tier solutions),
+	10%:
+	- Hours per day (tier 1)
+	- Non-stop (tier 2)
++ Unblocking time (tier 1 solutions are ranked ahead of lower tier solutions),
+	10%:
+	- Can't find the correct key (tier 1)
+	- Days (tier 3)
+	- Weeks (tier 2)
++ Percentage of area overhead (area with overhead / original area, rank in
+	ascending order), 10%.
++ Percentage of power overhead (power usage with overhead / original power
+	usage, rank in ascending order), 10%.
++ Percentage of energy overhead (energy usage with overhead / original energy
+		usage, rank in ascending order), 10%.
 
 
 

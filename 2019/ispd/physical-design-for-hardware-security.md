@@ -82,7 +82,7 @@ Metrics for determining the ranking of contestants, and their weightage:
 
 
 
-##	Problem 2
+##	Problem 3
 
 
 

@@ -29,6 +29,8 @@ We rank contestants based on the weighted combination of the following: time
 	ascending order), and percentage of correctly guessed connections in the
 	top layers (70%, rank in descending order).
 
+A set of layout benchmarks (based on GDSII/OASIS format) for the FEOL layers
+	would be provided.
 
 ###	Problem 1a
 
@@ -44,7 +46,8 @@ We rank contestants based on the weighted combination of the following: time
 	in the logic-level netlist - in comparison to the logic-level netlist of
 	the original IC design (70%, rank in descending order).
 
-
+A set of layout benchmarks (based on GDSII/OASIS format) for the FEOL layers
+	would be provided.
 
 ##	Problem 2
 
@@ -59,7 +62,8 @@ A reverse engineering flow will be used to guess the original design.
 	The order of ranking is descending.
 
 
-
+A set of layout benchmarks (based on GDSII/OASIS format) for the FEOL layers
+	would be provided.
 
 
 
